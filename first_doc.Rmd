@@ -22,3 +22,9 @@ library(knitr)
 kable(summary(cars))
 ```
 
+show some records
+
+```{r}
+head(cars)
+```
+
