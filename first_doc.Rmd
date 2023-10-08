@@ -1,0 +1,17 @@
+---
+title: "First Repo"
+author: "tony"
+date: '2023-10-08'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+plot `cars`
+
+```{r, plot-cars}
+plot(cars)
+```
+
