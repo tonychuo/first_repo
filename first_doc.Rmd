@@ -3,10 +3,12 @@ title: "Cars Data Set"
 author: "tony"
 date: '2023-10-08'
 output: pdf_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, paged.print=FALSE)
 ```
 
 plot `cars`
