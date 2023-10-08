@@ -1,8 +1,8 @@
 ---
-title: "First Repo"
+title: "Cars Data Set"
 author: "tony"
 date: '2023-10-08'
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -13,5 +13,12 @@ plot `cars`
 
 ```{r, plot-cars}
 plot(cars)
+```
+
+make a summary table
+
+```{r, summary}
+library(knitr)
+kable(summary(cars))
 ```
 
